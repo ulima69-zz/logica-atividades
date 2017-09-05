@@ -20,3 +20,15 @@ Atividades da disciplina de Lógica ministrada pelo Professor Alexandre Costa-Le
  - <math xmlns="http://www.w3.org/1998/Math/MathML" display="block"> <mrow> <mo>(</mo> <mrow> <mo>(</mo> <mi>P</mi> <mo>&#x2227;<!-- ∧ --></mo> <mi>Q</mi> <mo>)</mo> </mrow> <mo>&#x2227;<!-- ∧ --></mo> <mrow> <mo>(</mo> <mi>R</mi> <mo>&#x2227;<!-- ∧ --></mo> <mi>S</mi> <mo>)</mo> </mrow> <mo>)</mo> </mrow> <mo stretchy="false">&#x2192;<!-- → --></mo> <mrow> <mo>(</mo> <mi>T</mi> <mo>&#x2228;<!-- ∨ --></mo> <mi>U</mi> <mo>)</mo> </mrow> </math>
  
  - <math xmlns="http://www.w3.org/1998/Math/MathML" display="block"> <mrow> <mo>(</mo> <mi>P</mi> <mo>&#x2228;<!-- ∨ --></mo> <mi>Q</mi> <mo>)</mo> </mrow> <mo>&#x2228;<!-- ∨ --></mo> <mrow> <mo>(</mo> <mi>R</mi> <mo>&#x2228;<!-- ∨ --></mo> <mi>S</mi> <mo>)</mo> </mrow> </math>
+ 
+ 3. Mostre que os argumentos são válidos
+ 
+ - <math xmlns="http://www.w3.org/1998/Math/MathML" display="block"> <mo>&#x231D;<!-- ⌝ --></mo> <mi>P</mi> <mo>&#x2227;<!-- ∧ --></mo> <mo>&#x231D;<!-- ⌝ --></mo> <mi>Q</mi> <mo>&#x22A8;<!-- ⊨ --></mo> <mo>&#x231D;<!-- ⌝ --></mo> <mrow> <mo>(</mo> <mi>P</mi> <mo>&#x2227;<!-- ∧ --></mo> <mi>Q</mi> <mo>)</mo> </mrow> </math>
+ 
+ - <math xmlns="http://www.w3.org/1998/Math/MathML" display="block"> <mi>P</mi> <mo>,</mo> <mo>&#x231D;<!-- ⌝ --></mo> <mi>P</mi> <mo>&#x22A8;<!-- ⊨ --></mo> <mi>Q</mi> </math>
+ 
+ - <math xmlns="http://www.w3.org/1998/Math/MathML" display="block"> <mi>P</mi> <mo>&#x22A8;<!-- ⊨ --></mo> <mi>P</mi> </math>
+ 
+ - <math xmlns="http://www.w3.org/1998/Math/MathML" display="block"> <mi>P</mi> <mo>,</mo> <mi>Q</mi> <mo>,</mo> <mi>R</mi> <mo>,</mo> <mi>S</mi> <mo>,</mo> <mi>T</mi> <mo>,</mo> <mi>U</mi> <mo>,</mo> <mi>V</mi> <mo>,</mo> <mi>X</mi> <mo>&#x22A8;<!-- ⊨ --></mo> <mrow> <mo>(</mo> <mrow> <mo>(</mo> <mi>P</mi> <mo>&#x2227;<!-- ∧ --></mo> <mi>Q</mi> <mo>)</mo> </mrow> <mo>&#x2227;<!-- ∧ --></mo> <mrow> <mo>(</mo> <mi>R</mi> <mo>&#x2227;<!-- ∧ --></mo> <mi>S</mi> <mo>)</mo> </mrow> <mo>)</mo> </mrow> <mo>&#x2227;<!-- ∧ --></mo> <mrow> <mo>(</mo> <mi>T</mi> <mo>&#x2227;<!-- ∧ --></mo> <mi>U</mi> <mo>)</mo> </mrow> </math>
+ 
+ - <math xmlns="http://www.w3.org/1998/Math/MathML" display="block"> <mi>P</mi> <mo>&#x22A8;<!-- ⊨ --></mo> <mrow> <mo>(</mo> <mi>P</mi> <mo>&#x2228;<!-- ∨ --></mo> <mi>Q</mi> <mo>)</mo> </mrow> </math>
